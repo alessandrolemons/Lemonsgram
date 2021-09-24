@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Lemonsgram</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="linha-header">
+                <div class="logo-header">
+                    <a href="./home.html">Lemonsgram</a>
+                </div>
+                <div class="pesquisar">
+                    <div class="pesquisa">
+                        <input class="pesquisa-box" type="text" placeholder="Pesquisar" value="">
+                    </div>
+                </div>
+
+                <div class="icons-header">
+                    <ul>
+                        <li>
+                            <a href="./home.html"><i class="fas fa-home"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fas fa-location-arrow"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="far fa-compass"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" id="ativar">
+                                <img src="./img/profile-foto.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="main">
+                <div class="profile-shortcuts-wrapper">
+                    <div class="profile-shortcuts">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="far fa-user-circle"></i>Perfil</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="far fa-bookmark"></i>Salvos</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fas fa-cog"></i>Configurações</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fas fa-sync-alt"></i>Trocar conta</a>
+                            </li>
+
+                            <li id="exit-border">
+                                <a href="#">Sair</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <div class="linha-coluna-esquerda">
+                        <div class="borda-fade">
+                            <figure>
+                                <img draggable="false" src="./img/profile-foto.jpg" alt="Foto Usuário">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <section class="sessao-sobre">
+                        <div class="linha">
+                            <div class="linha-coluna-direita">
+                                <div class="aboutUser-name">
+                                    <h2>Alessandro</h2>
+                                    <button id="options"><i class="fas fa-ellipsis-h"></i></button>
+                                    <br>
+                                </div>
+                                <div class="buttons-profile">
+                                    <button id="message"><a href="#">Enviar Mensagem</a></button>
+                                    <button id="follow"><a href="#"><i class="fas fa-user-check"></i></a></button>
+                                    <button id="more"><a href="#"><i class="fas fa-chevron-down"></i></a></button>
+                                </div>
+                            </div>
+                            <div class="pessoas-2">
+                                <ul>
+                                    <li>
+                                        <span> <strong>9</strong>publicações
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <strong>54mil</strong> seguidores
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a id="following" href="#"><strong>472</strong> seguindo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="info">
+                    <h3>Alessandro Lemons</h3>
+                    <p>Estudante de desenvolvimento WEB</p>
+                    <a href="https://alessandrolemons.github.io/Portfolio/" target="_blank">- Portfólio</a> <br>
+                    <a href="https://github.com/alessandrolemons/alessandrolemons" target="_blank">- GitHub</a>
+                </div>
+
+                <section class="destaques">
+                    <ul>
+                        <li>
+                            <figure>
+                                <img src="./img/cursos.png" alt="Serviços">
+                                <h3>Cursos</h3>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./img/servicos.png" alt="">
+                                <h3>Serviços</h3>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./img/sobre-mim.png" alt="Serviços">
+                                <h3>Sobre Mim</h3>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./img/contatos.png" alt="Serviços">
+                                <h3>Contatos</h3>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="pessoas">
+                    <ul>
+                        <li>
+                            <span><strong>9</strong>
+                                <p>publicações</p>
+                            </span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <strong>54mil</strong> <br>seguidores
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a id="following" href="#"><strong>472</strong>seguindo</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="tablist">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fas fa-th"></i><span> publicações</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-video"></i><span> reels</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-play-circle"></i><span> vídeos</span> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-user-tag"></i><span> marcados</span></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="feed">
+                    <div class="photos-feed">
+                        <ul>
+                            <li>
+                                <figure><img src="./img/posts/post1.jpg" alt="post1"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post8.jpg" alt="post2"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post3.jpg" alt="post3"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post4.jpg" alt="post4"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post5.jpg" alt="post5"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post4.jpg" alt="post6"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post7.jpg" alt="post7"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post8.jpg" alt="post8"></figure>
+                            </li>
+                            <li>
+                                <figure><img src="./img/posts/post9.jpg" alt="post9"></figure>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="linha-footer">
+            <div class="linha-1">
+                <div class="atalhos">
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Termos</a></li>
+                        <li><a href="#">Principais contas</a></li>
+                        <li><a href="#">Hashtags</a></li>
+                        <li><a href="#">Localizações</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="linha-2">
+                <div class="idioma-direitos">
+                    <ul>
+                        <select idioma="select">
+                            <option value="#">Espanhol</option>
+                            <option value="#">Inglês</option>
+                            <option value="#" selected>Português (Brasil)</option>
+                        </select>
+                        <li> &copy; 2021 Instagram do Facebook</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
